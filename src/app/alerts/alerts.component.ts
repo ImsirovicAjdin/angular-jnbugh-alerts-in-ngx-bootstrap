@@ -3,7 +3,7 @@ import { DomSanitizer } from '@angular/platform-browser';
  
 @Component({
   selector: 'demo-alert-dynamic-html',
-  templateUrl: './dynamic-html.html'
+  templateUrl: './alerts.component.html'
 })
 export class DemoAlertDynamicHtmlComponent {
   alerts: any = [
