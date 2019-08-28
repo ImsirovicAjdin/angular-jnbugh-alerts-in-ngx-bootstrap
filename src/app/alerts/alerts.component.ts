@@ -6,6 +6,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   templateUrl: './alerts.component.html'
 })
 export class DemoAlertDynamicHtmlComponent {
+  dismissible = true;
   alerts: any = [
     {
       type: 'success',
